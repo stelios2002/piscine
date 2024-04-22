@@ -1,0 +1,16 @@
+package main
+
+import (
+	"github.com/01-edu/z01"
+)
+
+func main() {
+	myString := "abcdefghijklmnopqrstuvwxyz"
+
+	for i := 0; i < len(myString); i++ {
+		z01.PrintRune(rune(myString[i]))
+	}
+	z01.PrintRune(rune('\n'))
+
+	// fmt.Println("Hello, World!")
+}
